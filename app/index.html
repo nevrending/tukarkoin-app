@@ -1,18 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>TukarkoinApp</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Indonesian based Bitcoin exchange"/>
+    <meta name="author" content="Yefta Sutanto">
+    <meta name="keywords" content="bitcoin, indonesia, rupiah, kurs, exchange, trading"/>
+    <title>TukarKoin</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <meta name="theme-color" content="#d44413">
 
     {{content-for "head"}}
 
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+    <!-- <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet"> -->
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/tukarkoin-app.css">
 
     {{content-for "head-footer"}}
+
+    <base href="{{rootURL}}" />
   </head>
   <body>
     {{content-for "body"}}

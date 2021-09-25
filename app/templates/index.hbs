@@ -1,0 +1,27 @@
+{{page-title "Index"}}
+
+<Market
+  @symbol={{@model.taskInstance.ticker.symbol}}
+  @lastPrice={{@model.taskInstance.ticker.lastPrice}}
+  @closeTime={{@model.taskInstance.ticker.closeTime}}
+/>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+  <BidForm/>
+  <AskForm/>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+  <BuyOrders/>
+  <SellOrders/>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+  <ActiveOrders/>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+  <TransactionHistory/>
+</div>
+
+{{outlet}}

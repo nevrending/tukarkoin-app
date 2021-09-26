@@ -1,9 +1,10 @@
-# tukarkoin-app
+# TukarKoin App - Ember.js
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+[![JavaScript](https://img.shields.io/badge/JavaScript-%23f0db4f?style=flat&logoColor=%23333&logo=javascript)](https://www.javascript.com/)
 
-## Prerequisites
+A Proof of Concept Web App that was designed to serve as a frontend app that consumes [TukarKoin API](https://github.com/nevrending/tukarkoin-app)
+
+## Requirements
 
 You will need the following things properly installed on your computer.
 
@@ -11,47 +12,38 @@ You will need the following things properly installed on your computer.
 * [Node.js](https://nodejs.org/)
 * [Yarn](https://yarnpkg.com/)
 * [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
 
-## Installation
+## Setup
 
-* `git clone <repository-url>` this repository
-* `cd tukarkoin-app`
-* `yarn install`
+1. `git clone <repository-url>` this repository
+2. `cd tukarkoin-app`
+3. `yarn install`
+4. `ember s`
+5. The App should now be available on `http://localhost:4200`
 
-## Running / Development
+## Caveats
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+1. N/A
 
-### Code Generators
+## Libraries
 
-Make use of the many generators for code, try `ember help generate` for more details
+This project uses the following libraries, including but not limited to:
 
-### Running Tests
+1. [Ember.js](https://emberjs.com)
+2. ... and others
 
-* `ember test`
-* `ember test --server`
+## Future Improvements
 
-### Linting
+The following can be made as future improvements to this application, including but not limited to:
 
-* `yarn lint`
-* `yarn lint:fix`
+1. Working price polling
+2. Connecting the tables and forms to [TukarKoin API](https://github.com/nevrending/tukarkoin-app)
+3. Implement other critical components of an assets exchange, so that this may be a fully working frontend application
 
-### Building
+# Author
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+[Yefta Sutanto](https://github.com/nevrending)
 
-### Deploying
+# Copyright
 
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+2021 &copy; Yefta Sutanto

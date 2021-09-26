@@ -2,10 +2,10 @@
   "name": "tukarkoin-app",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for tukarkoin-app goes here",
-  "repository": "",
-  "license": "MIT",
-  "author": "",
+  "description": "TukarKoin App Proof of Concept",
+  "repository": "https://github.com/nevrending/tukarkoin-app",
+  "license": "Proprietary",
+  "author": "Yefta Sutanto",
   "directories": {
     "doc": "doc",
     "test": "tests"
